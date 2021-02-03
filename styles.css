@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic3.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* margin: 0; */
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 70vh;
+    }
+}
+
+
+
+header .navbar {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .navbar-nav .nav-item a {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+header .navbar-nav .nav-item a:hover {
+    color: #b38b6d;
+    transition: 1.2s;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    padding-right: 2.5rem;
+}
+
+
+header .navbar .navbar-brand {
+    color: #b38b6d;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+header .row .col-12 {
+    padding-top: 150px;
+}
+
+
+header .row .col-12 h1 {
+    color: #d4a885;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+
+}
+
+header .row .col-12 h2 {
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+
+header .row .col-12 p {
+    color: #d6b69b;
+    letter-spacing: 7px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+main h1 {
+    margin-top: 50px;
+    /* border-bottom: 5px solid #d4a885; */
+
+
+}
+
+/* main .content {
+    width: 200px;
+    text-align: center;
+} */
+
+main .row {
+    margin-top: 50px;
+}
+
+
+main .row .col-12 img {
+    width: 500px;
+    /* margin-left: 200px; */
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px #1d1d1d4b;
+    /* border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem; */
+
+}
+
+main .row .col-12 h2 {
+    /* border-bottom: 1px solid #b38b6d; */
+    color: #80644d;
+    /* margin-right: 400px; */
+}
+
+main .row .col-12 p {
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.568);
+    width: 400px;
+}
+
+main {
+    background-color: rgba(255, 251, 251, 0.822);
+}
+
+header .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border-color: rgb(170, 59, 59);
+}
+
+
+main .card-container {
+    margin-top: 100px;
+}
+
+main .card-container h1 {
+    margin-bottom: 70px;
+}
+
+main .card-container .card {
+    box-shadow: 0 0 10px 0 rgb(211, 211, 211);
+    border-radius: 0.4rem;
+}
+
+main .card-container .card .card-body .card-title {
+    color: #80644d;
+}
